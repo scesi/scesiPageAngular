@@ -10,6 +10,7 @@ import { AreasComponent } from './areas/areas.component';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { IntegrantesComponent } from './integrantes/integrantes.component';
+import { ButtonComponent } from './component/button/button.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { IntegrantesComponent } from './integrantes/integrantes.component';
     AreasComponent,
     AcercaDeComponent,
     EventosComponent,
-    IntegrantesComponent
+    IntegrantesComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
